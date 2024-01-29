@@ -53,6 +53,8 @@ function userInfo() {
       parseInt(prompt("How many characters do you want the password to contain?"));
     }
   }
+  
+  
   // it's asking the right questions but storing the first number and not the number that satisfies the conditions, need to figure it out
   
   var includeUppercase = confirm("Do you wan to include uppercase letters?")
@@ -60,8 +62,8 @@ function userInfo() {
   var includeSpecialCharacters = confirm("Do you want to include special characters?")
   var includeNumbers = confirm("Do you want to include numbers?")
   
- //Storing answers
-
+  //Storing answers
+  
   var userChoices = {
     characterLength: characterLength,
     includeUppercase: includeUppercase,
@@ -69,16 +71,17 @@ function userInfo() {
     includeSpecialCharacters: includeSpecialCharacters,
     includeNumbers: includeNumbers,
   }
+  
   return userChoices;
 }
 
+
 function generatePassword() {
   var userOptions = userInfo();
-console.log(userOptions)
-
-
+console.log(userOptions);
 
 }
+generatePassword();
 
 
 // Get references to the #generate element
