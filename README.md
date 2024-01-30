@@ -7,6 +7,10 @@ I WANT to randomly generate a password that meets certain criteria
 
 SO THAT I can create a strong password that provides greater security
 
+## Link To Password-Generator
+
+https://al3xg23.github.io/password-generator/
+
 ## Page Should Function Like This:
 
 ![Alt text](<2024-01-30 (1).png>)
