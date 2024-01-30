@@ -7,6 +7,13 @@ I WANT to randomly generate a password that meets certain criteria
 
 SO THAT I can create a strong password that provides greater security
 
+## Page Should Function Like This:
+
+![Alt text](<2024-01-30 (1).png>)
+![Alt text](<2024-01-30 (6).png>)
+![Alt text](<2024-01-30 (7).png>)
+![Alt text](<2024-01-30 (8).png>)
+
 ## Acceptance Criteria
 GIVEN I need a new, secure password
 
